@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.titulo-principal {
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    height: 90vh;
+}
+
+.lado-imagem {
+    flex: 1;
+}
+
+.lado-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lado-conteudo {
+    flex: 1;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.icone {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.empresa {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.lado-conteudo p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* Hashtags */
+.hashtags {
+    margin-top: 20px;
+    color: #555;
+}
